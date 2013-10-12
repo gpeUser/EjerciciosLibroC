@@ -1,0 +1,75 @@
+/**********************************************************************
+ *                          Grupo de Estudio C
+ * Autor:          Emanuel GP
+ * Libro:          Introduccion a la programacion con C
+ * Semana:         1
+ * Tema:           [I]: Introduccion a C
+ * Ejercicio:      11
+ **********************************************************************/
+ 
+ 
+========================================================================
+                       codigo: 1
+#include <stdio.h>
+
+ int main(void)
+ {
+ int a, b, i, j;
+
+ scanf ("%d", &a);
+ scanf ("%d", &b);
+ i = a;
+ j = 1;
+ while (i <= b) {
+ /* printf ("%d %d\n", i, j); */
+ j *= 2;
+ i += 1;
+ }
+ printf ("%d\n", j);
+ return 0;
+}
+   
+   El codigo anterior compila sin problema alguno, debido a que la linea
+   de codigo que esta comentada, es una sentencia que no afecta al
+   funcionamiento del programa, es decir la compilacion y ejecucion del
+   programa no se ve mermada por la carencia de dicha sentencia.
+========================================================================
+
+
+
+========================================================================
+                       codigo: 2
+#include <stdio.h>
+
+ int main(void)
+ {
+ int a, b, i, j;
+
+ scanf ("%d", &a);
+ scanf ("%d", &b);
+ i = a;
+ j = 1;
+ /*
+ while (i <= b) {
+ /* printf ("%d %d\n", i, j); */
+ j *= 2;
+ i += 1;
+ }
+ */
+ printf ("%d\n", j);
+ return 0;
+}
+   
+   El codigo anterior presenta mensajes de error y trunca la compilacion
+   correcta del mismo debido a que la colocacion de los delimitadores de
+   los comentarios(/*, */) han sido puestos en lugares que provocan mas
+   de una inconsistencia logica y sintactica al programa, ya que al no
+   poderse anidar(Revisa la seccion 1.5) los comentarios multilineas, el
+   primer delimitador del comentario(situado arriba de la palabra 
+   reservada "while") inicia el comentario y lo termina o trunca justo 
+   en donde encuentra el delimitador de cierre de comentario que aparece
+   primero en el codigo(situado despues del punto y coma que termina la
+   sentencia de la funcion de impresion, printf, la linea bajo la 
+   sentencia del "while"), y esto provoca que haya codigo en lugares que
+   provocan fallos de compilacion.
+========================================================================

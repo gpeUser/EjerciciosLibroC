@@ -1,0 +1,34 @@
+ /**********************************************************************
+ *                          Grupo de Estudio C
+ * Autor:          Emanuel GP
+ * Libro:          Introduccion a la programacion con C
+ * Semana:         1
+ * Tema:           [I]: Introduccion a C
+ * Ejercicio:      14
+ **********************************************************************/
+
+
+""" Cadenas en Python --------------------------------------------------
+
+1. "una cadena"
+2. ’una cadena’
+3. "una \"cadena\""
+4. ’una "cadena"’
+5. ’una \’cadena\’’
+6. "una cadena que ocupa\n dos l´ıneas"
+7. "una cadena que \\no ocupa dos l´ıneas"
+
+---------------------------------------------------------------------"""
+
+
+/* Cadenas en C --------------------------------------------------------
+
+1. "una cadena"
+2. "una cadena"
+3. "una \\\"cadena\\\""
+4. "una \"cadena\""
+5. "una \\\'cadena\\\'"
+6. "una cadena que ocupa\n dos líneas"
+7. "una cadena que \\no ocupa dos líneas"
+
+----------------------------------------------------------------------*/

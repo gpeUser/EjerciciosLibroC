@@ -1,0 +1,21 @@
+ /**********************************************************************
+ *                          Grupo de Estudio C
+ * Autor:          Emanuel GP
+ * Libro:          Introduccion a la programacion con C
+ * Semana:         1
+ * Tema:           [I]: Introduccion a C
+ * Ejercicio:      13
+ **********************************************************************/
+ 
+ 
+========================================================================
+                       codigo
+i = x //*y*/z++
+;
+   
+   La sentencia anterior, sera interpretada y compilada como una 
+   asignacion de la variable x, a la variable i, el resto de la linea
+   es interpretada como un comentario de fin de linea, que abarca desde
+   la "y" hasta la "z++", y el punto y coma de la linea posterior es
+   tomado por el compilador como el fin de la sentencia (i=x).
+========================================================================

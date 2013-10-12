@@ -1,0 +1,19 @@
+ /**********************************************************************
+ *                          Grupo de Estudio C
+ * Autor:          Emanuel GP
+ * Libro:          Introduccion a la programacion con C
+ * Semana:         1
+ * Tema:           [I]: Introduccion a C
+ * Ejercicio:      15
+ **********************************************************************/
+
+/*----------------------------------------------------------------------
+
+¿Qué mostrará por pantalla esta llamada a printf, suponiendo que a es de
+tipo entero y vale 10.?
+
+||||==>> printf ("%d-%d\n", a+1, 2+2);
+ ||
+||||==>> 11-4
+
+----------------------------------------------------------------------*/

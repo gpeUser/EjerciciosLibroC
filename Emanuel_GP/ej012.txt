@@ -1,0 +1,40 @@
+/**********************************************************************
+ *                          Grupo de Estudio C
+ * Autor:          Emanuel GP
+ * Libro:          Introduccion a la programacion con C
+ * Semana:         1
+ * Tema:           [I]: Introduccion a C
+ * Ejercicio:      12
+ **********************************************************************/
+ 
+ 
+========================================================================
+                       codigo
+#include <stdio.h>
+
+ int main(void)
+ {
+ int a, b, i, j;
+
+ scanf ("%d", &a);
+ scanf ("%d", &b);
+ i = a;
+ j = 1;
+ /*
+ while (i <= b) {
+ // printf ("%d %d\n", i, j);
+ j *= 2;
+ i += 1;
+ }
+ */
+ printf ("%d\n", j);
+ return 0;
+}
+   
+   El codigo anterior compila sin problema alguno, debido a que el 
+   delimitador del comentario de fin de linea o de una sola linea se 
+   encuentra ubicado dentro de un bloque de comentario multilinea que
+   no se ve afectado por el comentario anidado, ya que este no afecta a
+   la construccion del comentario multilinea y por ende a su escritura 
+   dentro del programa.
+========================================================================
