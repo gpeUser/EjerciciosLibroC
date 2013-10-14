@@ -1,0 +1,59 @@
+ /**********************************************************************
+ *                          Grupo de Estudio C
+ * Autor:          Emanuel GP
+ * Libro:          Introduccion a la programacion con C
+ * Semana:         2
+ * Tema:           [I]: Introduccion a C
+ * Ejercicio:      20
+ **********************************************************************/
+
+// ¿Que hace este programa?
+
+========================================================================
+#include <stdio.h>
+
+int main(void)
+{
+    int a, b, c, r;
+    
+    printf ("Dame un valor entero: "); scanf ("%d", &a);
+    printf ("Dame otro valor entero: "); scanf ("%d", &b);
+    printf ("Y uno mas: "); scanf ("%d", &c);
+    
+    r = (a < b) ? ( (a < c) ? a : c ) : ( (b < c) ? b : c );
+    
+    printf ("Resultado: %d\n", r);
+    
+    return 0;
+}
+    
+    El programa anterior inicialmente declara 4 variables de tipo entero
+    para almacenar los valores a operar. Despues le pide al usuario que
+    ingrese un valor por vez para almacenarlos en las variables que les
+    corresponde, luego realiza una asignación para el valor resultado(r)
+    mediante el operador condicional (?:) para poder establecer cual es
+    el valor que tendrá la variable 'r'. Para esto, realiza una 
+    anidación de las condiciones de la siguiente forma:
+        
+         Condiciona si 'a' es menor (<) que 'b'.
+            a) Si 'a' es menor que 'b'; entonces verifica una segunda 
+               condición, esta es: si 'a' es menor (<) que 'c'.
+                · Si 'a' es menor que 'c', entonces el valor que tendrá
+                  variable resultado (r) será: 'a', es decir, el valor 
+                  de 'r' será el valor contenido en la variable 'a'.
+                · Por el contrario, si 'a' no es menor que 'c', entonces
+                  el valor que tendrá variable resultado (r) será: 'c', 
+                  es decir, el valor de 'r' será el valor contenido en 
+                  la variable 'c'.
+            b) Si 'a' no es menor que 'b', entonces verifica un segunda
+               condición, esta es: si 'b' es menor (<) que 'c'.
+                · Si 'b' es menor que 'c', entonces el valor que tendrá
+                  variable resultado (r) será: 'b', es decir, el valor 
+                  de 'r' será el valor contenido en la variable 'b'.
+                · Por el contrario, si 'b' no es menor que 'c', entonces
+                  el valor que tendrá variable resultado (r) será: 'c', 
+                  es decir, el valor de 'r' será el valor contenido en 
+                  la variable 'c'.
+
+========================================================================
+

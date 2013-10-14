@@ -1,0 +1,18 @@
+ /**********************************************************************
+ *                          Grupo de Estudio C
+ * Autor:          Emanuel GP
+ * Libro:          Introduccion a la programacion con C
+ * Semana:         2
+ * Tema:           [I]: Introduccion a C
+ * Ejercicio:      18
+ **********************************************************************/
+
+// Interpreta el significado de la sentencia a = a + b.
+
+========================================================================
+
+Actualiza el contenido de la dirección de 'a', almacenando en ella la 
+suma del valor(contenido) actual de la dirección de 'a' mas el valor de
+la dirección de 'b'.
+
+========================================================================

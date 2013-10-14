@@ -2,7 +2,7 @@
  *                          Grupo de Estudio C
  * Autor:          Emanuel GP
  * Libro:          Introduccion a la programacion con C
- * Semana:         1
+ * Semana:         2
  * Tema:           [I]: Introduccion a C
  * Ejercicio:      15
  **********************************************************************/
